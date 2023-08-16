@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsCardTypeAllowed" targetNamespace="http://tempuri.org/dsCardTypeAllowed.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsCardTypeAllowed.xsd"
+	xmlns:mstns="http://tempuri.org/dsCardTypeAllowed.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsCardTypeAllowed" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Table">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CTAID" type="xs:long" minOccurs="0" />
+							<xs:element name="ctaCDCTID" type="xs:long" minOccurs="0" />
+							<xs:element name="cdctCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ctaMaxAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ctaMaxWithdrawAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ctaRemarks" type="xs:string" minOccurs="0" />
+							<xs:element name="DateCreated" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreatedBy" type="xs:string" minOccurs="0" />
+							<xs:element name="LastUpdated" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdatedBy" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
