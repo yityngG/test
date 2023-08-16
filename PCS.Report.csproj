@@ -1,0 +1,393 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{FD682D27-95F0-423C-947A-3565769C8D1B}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "PCS.Report"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "PCS.Report"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\Windows\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\Windows\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\Windows\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "C:\Windows\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\Windows\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Shared"
+                    AssemblyName = "CrystalDecisions.Shared"
+                    HintPath = "C:\Program Files (x86)\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Shared.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportSource"
+                    AssemblyName = "CrystalDecisions.ReportSource"
+                    HintPath = "C:\Program Files (x86)\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.ReportSource.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.CrystalReports.Engine"
+                    AssemblyName = "CrystalDecisions.CrystalReports.Engine"
+                    HintPath = "C:\Program Files (x86)\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.CrystalReports.Engine.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CPS.DBWrapper"
+                    AssemblyName = "CPS.DBWrapper"
+                    HintPath = "..\CPS.Resources\CPS.DBWrapper.dll"
+                />
+                <Reference
+                    Name = "CPS.Common"
+                    Project = "{E4BD8805-A91E-4A1F-9653-EAAE4A3BD220}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "AMS.Authentication"
+                    AssemblyName = "AMS.Authentication"
+                    HintPath = "..\CPS.Resources\AMS.Authentication.dll"
+                />
+                <Reference
+                    Name = "CommonRptBase"
+                    Project = "{31254D33-89C4-456E-8B92-8E9BB98D5AC7}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "CPS.BS"
+                    Project = "{A86BC715-3801-439F-8FE9-02EFC814C262}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "PCS.BS"
+                    Project = "{70318B86-481B-414C-A13E-59E16795E9FC}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RPTData.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RPTInterfacePCS.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Designer\PCS_RPTPlayerDepositListing.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "PCS_RPTPlayerDepositListing.cs"
+                />
+                <File
+                    RelPath = "Designer\PCS_RPTPlayerDepositListing.cs"
+                    DependentUpon = "PCS_RPTPlayerDepositListing.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Designer\PCS_RPTPlayerWithdrawalListing.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "PCS_RPTPlayerWithdrawalListing.cs"
+                />
+                <File
+                    RelPath = "Designer\PCS_RPTPlayerWithdrawalListing.cs"
+                    DependentUpon = "PCS_RPTPlayerWithdrawalListing.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Designer\RPTCardTypeAllowed.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RPTCardTypeAllowed1.cs"
+                />
+                <File
+                    RelPath = "Designer\RPTCardTypeAllowed1.cs"
+                    DependentUpon = "RPTCardTypeAllowed.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Designer\RPTDayShiftEndBalancing.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RPTDayShiftEndBalancing.cs"
+                />
+                <File
+                    RelPath = "Designer\RPTDayShiftEndBalancing.cs"
+                    DependentUpon = "RPTDayShiftEndBalancing.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Designer\RPTPlayerDepositListing.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RPTPlayerDepositListing.cs"
+                />
+                <File
+                    RelPath = "Designer\RPTPlayerDepositListing.cs"
+                    DependentUpon = "RPTPlayerDepositListing.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Designer\RPTPlayerWithdrawalListing.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RPTPlayerWithdrawalListing.cs"
+                />
+                <File
+                    RelPath = "Designer\RPTPlayerWithdrawalListing.cs"
+                    DependentUpon = "RPTPlayerWithdrawalListing.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Designer\RPTPrincipalCardTypeAllowed.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RPTPrincipalCardTypeAllowed.cs"
+                />
+                <File
+                    RelPath = "Designer\RPTPrincipalCardTypeAllowed.cs"
+                    DependentUpon = "RPTPrincipalCardTypeAllowed.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Forms\frmRptVwDayEndBalancing.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\frmRptVwDayEndBalancing.resx"
+                    DependentUpon = "frmRptVwDayEndBalancing.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\frmRptVwPlayerDepositListing.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\frmRptVwPlayerDepositListing.resx"
+                    DependentUpon = "frmRptVwPlayerDepositListing.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\frmRptVwPlayerWithdrawalListing.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\frmRptVwPlayerWithdrawalListing.resx"
+                    DependentUpon = "frmRptVwPlayerWithdrawalListing.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\frmRptVwShiftEndBalancing.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\frmRptVwShiftEndBalancing.resx"
+                    DependentUpon = "frmRptVwShiftEndBalancing.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "XSD\dsCardTypeAllowed.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XSD\dsCardTypeAllowed.xsx"
+                    DependentUpon = "dsCardTypeAllowed.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "XSD\dsDayShiftEndBalance.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsDayShiftEndBalance.cs"
+                />
+                <File
+                    RelPath = "XSD\dsDayShiftEndBalance.cs"
+                    DependentUpon = "dsDayShiftEndBalance.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "XSD\dsDayShiftEndBalance.xsx"
+                    DependentUpon = "dsDayShiftEndBalance.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "XSD\dsPlayerDepositListing.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsPlayerDepositListing.cs"
+                />
+                <File
+                    RelPath = "XSD\dsPlayerDepositListing.cs"
+                    DependentUpon = "dsPlayerDepositListing.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "XSD\dsPlayerDepositListing.xsx"
+                    DependentUpon = "dsPlayerDepositListing.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "XSD\dsPlayerWithdrawalListing.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsPlayerWithdrawalListing.cs"
+                />
+                <File
+                    RelPath = "XSD\dsPlayerWithdrawalListing.cs"
+                    DependentUpon = "dsPlayerWithdrawalListing.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "XSD\dsPlayerWithdrawalListing.xsx"
+                    DependentUpon = "dsPlayerWithdrawalListing.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "XSD\dsPrincipalCardTypeAllowed.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsPrincipalCardTypeAllowed.cs"
+                />
+                <File
+                    RelPath = "XSD\dsPrincipalCardTypeAllowed.cs"
+                    DependentUpon = "dsPrincipalCardTypeAllowed.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "XSD\dsPrincipalCardTypeAllowed.xsx"
+                    DependentUpon = "dsPrincipalCardTypeAllowed.xsd"
+                    BuildAction = "None"
+                />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{CF845C55-C321-4742-B673-E6212D061ED9}" />
+        </StartupServices>
+    </CSHARP>
+</VisualStudioProject>
+
